@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+.topnav #myLinks{
+    display: none;
+}
+.topnav a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+/* Styling the hamburger in menu */
+.topnav a.icon{
+    background: black;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* add gray background hover effect */
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+/* .topnav{
+    display: none;
+} */
+.active{
+    background: #04AA6D;
+    color: white;
+}
+a{
+    font-size: 35px;
+
+}
+nav{
+    background: lightgray;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 14px 16px;
+}
+nav ul li a{
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+nav ul li:hover{
+    background-color: lightsalmon;
+    color: black;
+}
+
+nav{
+    display: none;
+}
+
+header{
+    height: 800px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./horizon-forbidden-west-tallneck-locations.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+header p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#news{
+    height: 400px;
+    background-color: lightgray;
+    padding: 60px;
+    margin-bottom: 30px;
+}
+#news h1{
+    margin: 15px 0;
+    color: black;
+}
+#news p{
+    margin-bottom: 15px;
+    color: #808080;
+}
+#about{
+    height: 400px;
+    padding: 60px;
+}
+#about h1{
+    margin: 15px 0;
+    color: #606060;
+}
+#about p{
+    color: #808080; 
+    line-height: 1.4;
+    margin-bottom: 10px;
+
+
+}
+#about h3{
+    color: #606060;
+}
+#contact{
+    height: 400px;
+    background-color: lightgray;
+    padding: 60px;
+}
+#contact h1{
+    margin: 15px 0;
+    color: #606060;
+}
+#contact p{
+    color: #808080;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+#contact h2,h3{
+    color: #606060;
+    margin: 10px;
+}
+.social a{
+    text-decoration: none;
+}
+.social .fa-whatsapp{
+    margin-right: 20px;
+    color: #25D366;
+    font-size: 20px;
+}
+.social .fa-facebook{
+    margin-right: 20px;
+    color: #4267B2;
+    font-size: 20px;
+}
+.social .fa-instagram{
+    margin-right: 20px;
+    color: #E1306C;
+    font-size: 20px;
+}
+.social .fa-youtube{
+    margin-right: 20px;
+    color: #FF0000;
+    font-size: 20px;
+}
+#services{
+    height: 400px;
+    padding: 60px;
+    margin-bottom: 30px;
+}
+#services h1{
+    margin: 15px 0;
+    color: #606060;
+} 
+.column{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;    
+}
+.column .col1{
+    background: url(./horizon-forbidden-west-tallneck-locations.webp);
+    background-position: center;
+    background-size: cover;
+    width: 33.3%;
+    height: 250px;
+}
+.column .col1:hover{
+    transform: scale(1.1);
+    transition: 0.45s;
+}
+.column .col2{
+    background: url(./IMG_20220809_210856.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 33.3%;
+    height: 250px;
+}
+.column .col2:hover{
+    transform: scale(1.1);
+    transition: 0.45s;
+}
+.column .col3{
+    background: url(./Luke-Skywalker-star-wars-return-of-the-jedi-40868582-1024-768.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 33.3%;
+    height: 250px;
+}
+.column .col3:hover{
+    transform: scale(1.1);
+    transition: 0.45s;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+
+}
+#news{
+    padding: 20px;
+    height: 500px;
+}
+#about{
+    padding: 20px;
+    height: 450px;
+}
+#contact{
+    margin-top: 90px;
+    padding: 20px;
+    height: 500px;
+}
+#services{
+    margin-top: 80px;
+    padding: 10px;
+    height: 500px;
+}
+.column{
+    flex-direction: column;
+}
+.column .col1{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.column .col2{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.column .col3{
+    width: 100%;
+    margin-bottom: 5px;
+}
